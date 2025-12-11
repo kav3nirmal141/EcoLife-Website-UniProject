@@ -1,0 +1,209 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f9f4;
+    color: #1f1f1f;
+}
+
+h1, h2, h3 {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0 0 15px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+}
+
+
+header {
+    background: #2e8b57;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+
+nav {
+    background: #b8e6c1;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #145934;
+    font-weight: bold;
+    padding: 10px 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #2e8b57;
+    color: white;
+    border-radius: 5px;
+}
+
+.banner {
+    background: url('') center/cover no-repeat;
+    padding: 70px 20px;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+}
+
+
+.card, .fact-card, .tip-card, .contact-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 2px solid #2e8b57;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card:hover, .fact-card:hover, .tip-card:hover, .contact-card:hover {
+    transform: translateY(-6px);
+    border-color: #145934;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.card h3, .fact-card h3, .tip-card strong, .contact-card h3 {
+    color: #2e8b57;
+}
+
+
+section {
+    padding: 25px 0;
+}
+
+.info-box, .survey-box, .tips-box, .contact-box {
+    background: white;
+    border-left: 6px solid #2e8b57;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+
+.recycle-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.recycle-table th {
+    background: #2e8b57;
+    color: white;
+    padding: 14px;
+    font-size: 18px;
+}
+
+.recycle-table td {
+    background: white;
+    padding: 14px;
+    border-bottom: 1px solid #d9e9d9;
+}
+
+.recycle-table tr:hover td {
+    background: #eef8f0;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 2px solid #2e8b57;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+label {
+    font-weight: bold;
+    color: #145934;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #bcd8c4;
+    background: #fff;
+    font-size: 15px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 6px;
+}
+
+button.submit-btn {
+    background: #2e8b57;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.submit-btn:hover {
+    background: #145934;
+}
+
+
+.card-section, .fact-grid, .tips-grid, .card-grid, .contact-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.emoji, .tip-emoji {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.map-box {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.map-box img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+    border: 2px solid #2e8b57;
+}
+
+
+footer {
+    background: #145934;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 800px) {
+    .card, .fact-card, .tip-card, .contact-card {
+        width: 90%;
+    }
+}
